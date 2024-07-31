@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar">
+
+        <div class="bunder"></div>
+        <div class="tulis">
+            <p>BADAN METEOROLOGI, KEMPOL, DAN GAK TAU</p>
+            <p>Cepat, Tepat, Akurat, Luas, dan Mudah Dipahami</p>
+        </div>
+
+        <div class="nav-link">
+            <a href="">PROFILE</a>
+            <a href="">CUACA</a>
+            <a href="">IKLIM</a>
+            <a href="">KUALITAS UDARA</a>
+        </div>
+    </div>
+
+    <div class="dobyat">
+        <h1>Perkiraan Cuaca</h1>
+    </div>
+    <div class="dobylanjut">
+        <div class="isi">
+            <select id="city-selector">
+                <option value="Jakarta">Pilih kota </option>
+                <option disabled=""></option>
+                <option disabled style="font-weight: bolder;" value="">Jawa Barat</option>
+                <option value="Bandung">Bandung</option>
+                <option value="Bekasi">Bekasi</option>
+                <option value="Cirebon">Cirebon</option>
+                <option value="Depok">Depok</option>
+                <option value="Tasikmalaya">Tasikmalaya</option>
+                <option value="Garut">Garut</option>
+                <option value="Kuningan">Kuningan</option>
+                <option value="Sumedang">Sumedang</option>
+                <option value="Sukabumi">Sukabumi</option>
+                <option value="Banjar">Jakarta</option>
+                <option disabled=""></option>
+                <option disabled style="font-weight: bolder;" value="">Jawa Tengah</option>
+                <option value="Semarang">Semarang</option>
+                <option value="Surakarta (Solo)">Surakarta (Solo)</option>
+                <option value="Cilacap">Cilacap</option>
+                <option value="Purwokerto">Purwokerto</option>
+                <option value="Tegal">Tegal</option>
+                <option value="Salatiga">Salatiga</option>
+                <option value="Magelang">Magelang</option>
+                <option value="Kudus">Kudus</option>
+                <option value="Pekalongan">Pekalongan</option>
+                <option value="Wonosobo">Wonosobo</option>
+                <option disabled=""></option>
+                <option disabled style="font-weight: bolder;" value="">Jawa Timur</option>
+                <option value="Surabaya">Surabaya</option>
+                <option value="Malang">Malang</option>
+                <option value="Kediri">Kediri</option>
+                <option value="Jember">Jember</option>
+                <option value="Batu">Batu</option>
+                <option value="Probolinggo">Probolinggo</option>
+                <option value="Blitar">Blitar</option>
+                <option value="Madiun">Madiun</option>
+                <option value="Sidoarjo">Sidoarjo</option>
+                <option value="Lumajang">Lumajang</option>
+
+
+
+            </select>
+
+
+
+            <div class="pedok">
+
+                <div id="weather-info">mengambil data kota</div>
+
+
+                <div id="time-info">Mengambil Data Waktu</div>
+
+                <div class="btn">
+
+                </div>
+
+                <div style="display: flex;flex-wrap: wrap;" id="hourly-temps-info">Mengambil Data</div>
+
+                <div id=""></div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<script src="../index.js"></script>
